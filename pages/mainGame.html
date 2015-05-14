@@ -1,0 +1,25 @@
+<script src="idlescript.js">
+</script>
+<link rel="stylesheet" href="stylelystylesheet.css" type="text/stylesheet"/>
+<div align="center">
+<div id="storyAdvance" onclick="story()" ><p id="story">Click To begin Story</p></div>
+<table id="resourceGrid" style="display:none;" width="100%">
+	<tr id="miningBlock" style="display:none;opacity:0;">
+		<td id="mineStone" onclick="stone++"></td>
+		<td id="mineIron" onclick="iron++"></td>
+		<td id="mineCopper" onclick="copper++"></td>
+		<td id="mineCoal" onclick="coal++"></td>
+	</tr>
+	<tr id="smeltingBlock" style="display:none;opacity:0;">
+		<td id="smeltStone" onclick="smelt(3)"></td>
+		<td id="smeltIron" onclick="smelt(2)" ></td>
+		<td id="smeltCopper" onclick="smelt(1)"></td>
+		<td id="smeltCoal"  onclick="smelt(4)"></td>
+	</tr>
+</table>
+<div id="researchBlock" style="display:none;">
+<h1 id="research">Research</h1>
+<p id="currentResearch" onclick="researchSmelting()">Research Smelting (+Smelting, -10 stone, -10 iron, -10 copper)</p>
+</div>
+</div>
+<div onclick="story()" style="height:100%;width:100%"></div>
