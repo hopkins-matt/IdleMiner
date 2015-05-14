@@ -1,0 +1,41 @@
+body{
+font: 1em/1.5em Verdana, Geneva, sans-serif;
+}
+td#mineStone{
+background:	#E0E0D1;
+}
+td#mineIron{
+background:#999999;
+}
+td#mineCopper{
+background:#B26B00;
+}
+td#mineCoal{
+background:#333333;
+}
+td#smeltCoal{
+background: #EBF0F5;
+}
+td#smeltIron{
+background: #85A3C2;
+}
+td#smeltCopper{
+background: #FF9900;
+}
+td#smeltStone{
+background: #B89470;
+}
+table#resourceGrid{
+padding: 10%;
+padding-bottom: 0%;
+padding-top: 0px;
+width: 100%;
+table-layout: fixed;
+}
+td{
+text-align: center;
+height: 50px;
+}
+p#story{
+font: 1em/1.5em Andale Mono, monospace;
+}
