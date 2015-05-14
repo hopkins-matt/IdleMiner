@@ -1,0 +1,50 @@
+body{
+font: bold 1em/1.5em Verdana, Geneva, sans-serif;
+}
+table#topBanner{
+table-layout: fixed;
+height: 50px;
+width:100%;
+border-bottom: 1px solid black;
+border-top:1px solid black;
+padding:0px;
+margin:0px;
+border-collapse:1;
+margin-bottom: 20px;
+}
+td#bannerHome{
+width:150px;
+text-align: center;
+border-right: 1px solid black;
+}
+td#bannerNews{
+width:150px;
+text-align: center;
+border-right: 1px solid black;
+}
+td#bannerWiki{
+width:250px;
+text-align: center;
+border-right: 1px solid black;
+}
+td#bannerAboutUs{
+width:150px;
+text-align: center;
+border-right: 1px solid black;
+}
+td#bannerContact{
+width:150px;
+text-align: center;
+border-right: 1px solid black;
+}
+td#bannerDonate{
+width:150px;
+text-align: center;
+}
+div#bannerWikiExperimental{
+color:red;
+display:inline;
+}
+div#pageFill{
+height: 100%;
+}
