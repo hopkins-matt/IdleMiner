@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="stylelystylesheet.css" type="text/stylesheet"/>
+<script src="mainpage.js">
+</script>
+</head>
+<body>
+<table id="topBanner">
+<tr>
+<td id="bannerHome" onclick="home()">Home</td>
+<td id="bannerNews" onclick="news()">News</td>
+<td id="bannerWiki" onclick="wiki()">Wiki<div id="bannerWikiExperimental"> EXPERIMENTAL</div></td>
+<td id="bannerAboutUs" onclick="aboutUs()">About Us</td>
+<td id="bannerContact">Contact</td>
+<td id="bannerDonate">Donate</td>
+<td id="bannerFill"><td>
+</tr>
+</table>
+<p id="warning" style="display:block">Warning switching tabs will unload the game <a onclick="hide()"><u>Hide Warning</u></a></p>
+<iframe src="Pages/mainGame.html" frameborder="0" id="mainPageBody" width="1080px" height="1080px"></iframe>
+<div id="pageFill"><p></p></div>
+<p id="copyRight" style="text-align:center">© 2015 Ryan Schaefer</p>
+</body>
+</html>
